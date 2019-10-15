@@ -1,5 +1,9 @@
 ﻿# mastermind
 This is a command-line version of the well-known [mastermind game](https://en.wikipedia.org/wiki/Mastermind_%28board_game%29).
+
+## Additional Features
+This forked repository is meant for the CPSC312 project. Our team added a new feature into the Mastermind implementation by nkarag. This feature is a new 'hard' mode, which uses the alphabet instead of [0,9] for the combinations. This allows for 26 possible choices when making the combination of 4 characters. The AI/Computer is able to guess your combination as well.
+
 ## How to play
 The game is played with 4 digit numbers DDDD where D in [0,9] and the player  plays against the computer.
 The player goes first and chooses a 4 digit secret code (in her mind). Then, the computer starts the guessing process. For each guess code proposed by the computer, the player must answer how many "Blacks" and how many "Whites" have been found.
